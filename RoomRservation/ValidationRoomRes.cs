@@ -35,8 +35,21 @@ namespace RoomRservation
             string phonePattern = "[0-9]{10}";
             return Regex.IsMatch(phoneNo, phonePattern);
         }
-      
-
+       public static bool validateNIC(String NIC)
+        {
+            string NICPattern = "[0-9]{9}[vVxX]{1}$";
+            return Regex.IsMatch(NIC , NICPattern);
+        }
+        public static bool validateNumbers(String numbers)
+        {
+            string NumberPattern = "^([1-9]|1[012])$";
+            return Regex.IsMatch(numbers, NumberPattern);
+        }
+        public static bool validateChildren(String children)
+        {
+            string ChildrenPattern = "^([0-9]|1[012])$";
+            return Regex.IsMatch(children, ChildrenPattern);
+        }
     }
 
 

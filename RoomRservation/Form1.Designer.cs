@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlNavigator = new System.Windows.Forms.Panel();
             this.btnBooking = new System.Windows.Forms.Button();
             this.btnDetails = new System.Windows.Forms.Button();
@@ -46,7 +46,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.cmbRoomTypess = new System.Windows.Forms.ComboBox();
+            this.cmbRoomTypes = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.cmbRoomNo = new System.Windows.Forms.ComboBox();
             this.CheckOut = new System.Windows.Forms.DateTimePicker();
@@ -56,27 +56,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.pnlForm = new System.Windows.Forms.Panel();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.txtboxContactID = new System.Windows.Forms.TextBox();
-            this.btnViewAll = new System.Windows.Forms.Button();
-            this.dgvAllCustomers = new System.Windows.Forms.DataGridView();
-            this.pnlHome = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pnlHeader = new System.Windows.Forms.Panel();
-            this.lblHotelName = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.btnProfile = new System.Windows.Forms.Button();
-            this.lblSystemName = new System.Windows.Forms.Label();
+            this.pnlForm1 = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.cmbStandardRoom = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -120,21 +100,41 @@
             this.lblFirstName = new System.Windows.Forms.Label();
             this.lblContactNumber = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.txtboxContactID = new System.Windows.Forms.TextBox();
+            this.btnViewAll = new System.Windows.Forms.Button();
+            this.dgvAllCustomers = new System.Windows.Forms.DataGridView();
+            this.pnlHome = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblHotelName = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnProfile = new System.Windows.Forms.Button();
+            this.lblSystemName = new System.Windows.Forms.Label();
             this.pnlNavigator.SuspendLayout();
             this.pnlAvailbility.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAvailability)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.pnlForm.SuspendLayout();
+            this.pnlForm1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCustomers)).BeginInit();
             this.pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.pnlHeader.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlNavigator
@@ -276,7 +276,6 @@
             this.btnCheckForRoomType.TabIndex = 8;
             this.btnCheckForRoomType.Text = "Check";
             this.btnCheckForRoomType.UseVisualStyleBackColor = false;
-            this.btnCheckForRoomType.Click += new System.EventHandler(this.btnCheckForRoomType_Click);
             // 
             // cmbAvailableType
             // 
@@ -295,8 +294,8 @@
             // 
             this.dgvAvailability.AllowUserToAddRows = false;
             this.dgvAvailability.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.dgvAvailability.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.dgvAvailability.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvAvailability.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvAvailability.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.dgvAvailability.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -311,7 +310,7 @@
             // 
             this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.cmbRoomTypess);
+            this.groupBox1.Controls.Add(this.cmbRoomTypes);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.cmbRoomNo);
             this.groupBox1.Controls.Add(this.CheckOut);
@@ -351,18 +350,19 @@
             this.button6.TabIndex = 8;
             this.button6.Text = "Check Availability";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // cmbRoomTypess
+            // cmbRoomTypes
             // 
-            this.cmbRoomTypess.FormattingEnabled = true;
-            this.cmbRoomTypess.Items.AddRange(new object[] {
-            "Suite Room",
-            "Deluxe Room",
-            "Standard Room"});
-            this.cmbRoomTypess.Location = new System.Drawing.Point(556, 92);
-            this.cmbRoomTypess.Name = "cmbRoomTypess";
-            this.cmbRoomTypess.Size = new System.Drawing.Size(192, 31);
-            this.cmbRoomTypess.TabIndex = 7;
+            this.cmbRoomTypes.FormattingEnabled = true;
+            this.cmbRoomTypes.Items.AddRange(new object[] {
+            "D",
+            "S",
+            "T"});
+            this.cmbRoomTypes.Location = new System.Drawing.Point(556, 92);
+            this.cmbRoomTypes.Name = "cmbRoomTypes";
+            this.cmbRoomTypes.Size = new System.Drawing.Size(192, 31);
+            this.cmbRoomTypes.TabIndex = 7;
             // 
             // label9
             // 
@@ -449,282 +449,38 @@
             this.label13.TabIndex = 1;
             this.label13.Text = "Availability";
             // 
-            // pnlForm
+            // pnlForm1
             // 
-            this.pnlForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
-            this.pnlForm.Controls.Add(this.groupBox4);
-            this.pnlForm.Controls.Add(this.textBoxNIC);
-            this.pnlForm.Controls.Add(this.label15);
-            this.pnlForm.Controls.Add(this.btnClear);
-            this.pnlForm.Controls.Add(this.groupBox3);
-            this.pnlForm.Controls.Add(this.btnUpdate);
-            this.pnlForm.Controls.Add(this.btnDelete);
-            this.pnlForm.Controls.Add(this.btnSubmit);
-            this.pnlForm.Controls.Add(this.txtboxAddress);
-            this.pnlForm.Controls.Add(this.radioFemale);
-            this.pnlForm.Controls.Add(this.radioMale);
-            this.pnlForm.Controls.Add(this.txtboxFirstName);
-            this.pnlForm.Controls.Add(this.txtboxLastName);
-            this.pnlForm.Controls.Add(this.txtboxContactNumber);
-            this.pnlForm.Controls.Add(this.lblGender);
-            this.pnlForm.Controls.Add(this.lblAddress);
-            this.pnlForm.Controls.Add(this.lblFirstName);
-            this.pnlForm.Controls.Add(this.lblContactNumber);
-            this.pnlForm.Controls.Add(this.lblLastName);
-            this.pnlForm.Controls.Add(this.btnSearch);
-            this.pnlForm.Controls.Add(this.txtboxContactID);
-            this.pnlForm.Controls.Add(this.btnViewAll);
-            this.pnlForm.Controls.Add(this.dgvAllCustomers);
-            this.pnlForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlForm.ForeColor = System.Drawing.Color.Black;
-            this.pnlForm.Location = new System.Drawing.Point(291, 170);
-            this.pnlForm.Name = "pnlForm";
-            this.pnlForm.Size = new System.Drawing.Size(1584, 784);
-            this.pnlForm.TabIndex = 15;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.ForeColor = System.Drawing.Color.Black;
-            this.btnSearch.Location = new System.Drawing.Point(1397, 50);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(115, 56);
-            this.btnSearch.TabIndex = 26;
-            this.btnSearch.Text = "Search ID";
-            this.btnSearch.UseVisualStyleBackColor = false;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click_1);
-            // 
-            // txtboxContactID
-            // 
-            this.txtboxContactID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtboxContactID.Location = new System.Drawing.Point(1061, 64);
-            this.txtboxContactID.Name = "txtboxContactID";
-            this.txtboxContactID.Size = new System.Drawing.Size(320, 32);
-            this.txtboxContactID.TabIndex = 9;
-            this.txtboxContactID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtboxContactID_KeyDown);
-            // 
-            // btnViewAll
-            // 
-            this.btnViewAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnViewAll.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnViewAll.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewAll.Location = new System.Drawing.Point(1061, 692);
-            this.btnViewAll.Name = "btnViewAll";
-            this.btnViewAll.Size = new System.Drawing.Size(451, 56);
-            this.btnViewAll.TabIndex = 29;
-            this.btnViewAll.Text = "View All";
-            this.btnViewAll.UseVisualStyleBackColor = false;
-            this.btnViewAll.Click += new System.EventHandler(this.btnViewAll_Click_1);
-            // 
-            // dgvAllCustomers
-            // 
-            this.dgvAllCustomers.AllowUserToAddRows = false;
-            this.dgvAllCustomers.AllowUserToDeleteRows = false;
-            this.dgvAllCustomers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvAllCustomers.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
-            this.dgvAllCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAllCustomers.Location = new System.Drawing.Point(1061, 121);
-            this.dgvAllCustomers.MultiSelect = false;
-            this.dgvAllCustomers.Name = "dgvAllCustomers";
-            this.dgvAllCustomers.ReadOnly = true;
-            this.dgvAllCustomers.RowTemplate.Height = 24;
-            this.dgvAllCustomers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAllCustomers.Size = new System.Drawing.Size(451, 550);
-            this.dgvAllCustomers.TabIndex = 1;
-            this.dgvAllCustomers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAllCustomers_CellContentClick);
-            this.dgvAllCustomers.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvAllCustomers_MouseClick);
-            // 
-            // pnlHome
-            // 
-            this.pnlHome.BackColor = System.Drawing.Color.LightGray;
-            this.pnlHome.Controls.Add(this.label6);
-            this.pnlHome.Controls.Add(this.label4);
-            this.pnlHome.Controls.Add(this.label5);
-            this.pnlHome.Controls.Add(this.label3);
-            this.pnlHome.Controls.Add(this.label2);
-            this.pnlHome.Controls.Add(this.label7);
-            this.pnlHome.Controls.Add(this.pictureBox1);
-            this.pnlHome.Controls.Add(this.pictureBox2);
-            this.pnlHome.Controls.Add(this.pictureBox5);
-            this.pnlHome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.pnlHome.Location = new System.Drawing.Point(291, 170);
-            this.pnlHome.Name = "pnlHome";
-            this.pnlHome.Size = new System.Drawing.Size(1584, 784);
-            this.pnlHome.TabIndex = 35;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label6.Location = new System.Drawing.Point(1157, 436);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(415, 253);
-            this.label6.TabIndex = 10;
-            this.label6.Text = resources.GetString("label6.Text");
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Location = new System.Drawing.Point(613, 436);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(415, 253);
-            this.label4.TabIndex = 9;
-            this.label4.Text = resources.GetString("label4.Text");
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(75, 434);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(415, 253);
-            this.label5.TabIndex = 8;
-            this.label5.Text = resources.GetString("label5.Text");
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(728, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(170, 29);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Deluxe Room";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(1234, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(194, 29);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Standard Room";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(202, 30);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 29);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Suite Room";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1149, 93);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(432, 304);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(79, 93);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(424, 300);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(617, 93);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(427, 304);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pnlHeader
-            // 
-            this.pnlHeader.BackColor = System.Drawing.Color.Black;
-            this.pnlHeader.Controls.Add(this.lblHotelName);
-            this.pnlHeader.Controls.Add(this.button2);
-            this.pnlHeader.Controls.Add(this.btnLogout);
-            this.pnlHeader.Controls.Add(this.btnProfile);
-            this.pnlHeader.Controls.Add(this.lblSystemName);
-            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlHeader.Location = new System.Drawing.Point(291, 0);
-            this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1584, 170);
-            this.pnlHeader.TabIndex = 34;
-            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
-            // 
-            // lblHotelName
-            // 
-            this.lblHotelName.AutoSize = true;
-            this.lblHotelName.Font = new System.Drawing.Font("Monotype Corsiva", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHotelName.ForeColor = System.Drawing.Color.White;
-            this.lblHotelName.Location = new System.Drawing.Point(28, 14);
-            this.lblHotelName.Name = "lblHotelName";
-            this.lblHotelName.Size = new System.Drawing.Size(553, 97);
-            this.lblHotelName.TabIndex = 0;
-            this.lblHotelName.Text = "Ella Sault Resort";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(1253, 14);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 38);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Home";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnLogout.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
-            this.btnLogout.Location = new System.Drawing.Point(1482, 12);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(90, 38);
-            this.btnLogout.TabIndex = 3;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // btnProfile
-            // 
-            this.btnProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnProfile.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
-            this.btnProfile.Location = new System.Drawing.Point(1369, 13);
-            this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(96, 38);
-            this.btnProfile.TabIndex = 2;
-            this.btnProfile.Text = "Profile";
-            this.btnProfile.UseVisualStyleBackColor = false;
-            // 
-            // lblSystemName
-            // 
-            this.lblSystemName.AutoSize = true;
-            this.lblSystemName.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemName.ForeColor = System.Drawing.Color.White;
-            this.lblSystemName.Location = new System.Drawing.Point(532, 105);
-            this.lblSystemName.Name = "lblSystemName";
-            this.lblSystemName.Size = new System.Drawing.Size(439, 55);
-            this.lblSystemName.TabIndex = 1;
-            this.lblSystemName.Text = "Room Reservation";
+            this.pnlForm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
+            this.pnlForm1.Controls.Add(this.groupBox4);
+            this.pnlForm1.Controls.Add(this.textBoxNIC);
+            this.pnlForm1.Controls.Add(this.label15);
+            this.pnlForm1.Controls.Add(this.btnClear);
+            this.pnlForm1.Controls.Add(this.groupBox3);
+            this.pnlForm1.Controls.Add(this.btnUpdate);
+            this.pnlForm1.Controls.Add(this.btnDelete);
+            this.pnlForm1.Controls.Add(this.btnSubmit);
+            this.pnlForm1.Controls.Add(this.txtboxAddress);
+            this.pnlForm1.Controls.Add(this.radioFemale);
+            this.pnlForm1.Controls.Add(this.radioMale);
+            this.pnlForm1.Controls.Add(this.txtboxFirstName);
+            this.pnlForm1.Controls.Add(this.txtboxLastName);
+            this.pnlForm1.Controls.Add(this.txtboxContactNumber);
+            this.pnlForm1.Controls.Add(this.lblGender);
+            this.pnlForm1.Controls.Add(this.lblAddress);
+            this.pnlForm1.Controls.Add(this.lblFirstName);
+            this.pnlForm1.Controls.Add(this.lblContactNumber);
+            this.pnlForm1.Controls.Add(this.lblLastName);
+            this.pnlForm1.Controls.Add(this.btnSearch);
+            this.pnlForm1.Controls.Add(this.txtboxContactID);
+            this.pnlForm1.Controls.Add(this.btnViewAll);
+            this.pnlForm1.Controls.Add(this.dgvAllCustomers);
+            this.pnlForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlForm1.ForeColor = System.Drawing.Color.Black;
+            this.pnlForm1.Location = new System.Drawing.Point(291, 170);
+            this.pnlForm1.Name = "pnlForm1";
+            this.pnlForm1.Size = new System.Drawing.Size(1584, 784);
+            this.pnlForm1.TabIndex = 15;
             // 
             // groupBox4
             // 
@@ -757,7 +513,6 @@
             this.cmbStandardRoom.FormattingEnabled = true;
             this.cmbStandardRoom.Items.AddRange(new object[] {
             "",
-            "",
             "1",
             "2",
             "3",
@@ -768,7 +523,7 @@
             "8",
             "9",
             "10"});
-            this.cmbStandardRoom.Location = new System.Drawing.Point(200, 193);
+            this.cmbStandardRoom.Location = new System.Drawing.Point(200, 126);
             this.cmbStandardRoom.Name = "cmbStandardRoom";
             this.cmbStandardRoom.Size = new System.Drawing.Size(195, 31);
             this.cmbStandardRoom.TabIndex = 43;
@@ -778,7 +533,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label18.Location = new System.Drawing.Point(18, 193);
+            this.label18.Location = new System.Drawing.Point(16, 129);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(159, 23);
             this.label18.TabIndex = 42;
@@ -798,7 +553,7 @@
             // children
             // 
             this.children.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.children.Location = new System.Drawing.Point(625, 82);
+            this.children.Location = new System.Drawing.Point(625, 129);
             this.children.Name = "children";
             this.children.Size = new System.Drawing.Size(195, 32);
             this.children.TabIndex = 40;
@@ -806,7 +561,7 @@
             // adults
             // 
             this.adults.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.adults.Location = new System.Drawing.Point(200, 76);
+            this.adults.Location = new System.Drawing.Point(625, 77);
             this.adults.Name = "adults";
             this.adults.Size = new System.Drawing.Size(195, 32);
             this.adults.TabIndex = 41;
@@ -816,11 +571,11 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label17.Location = new System.Drawing.Point(460, 82);
+            this.label17.Location = new System.Drawing.Point(457, 132);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(89, 23);
+            this.label17.Size = new System.Drawing.Size(152, 23);
             this.label17.TabIndex = 39;
-            this.label17.Text = "children";
+            this.label17.Text = "children (0-17)";
             // 
             // dob
             // 
@@ -860,11 +615,11 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label16.Location = new System.Drawing.Point(18, 85);
+            this.label16.Location = new System.Drawing.Point(458, 77);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(70, 23);
+            this.label16.Size = new System.Drawing.Size(126, 23);
             this.label16.TabIndex = 38;
-            this.label16.Text = "Adults";
+            this.label16.Text = "Adults (18+)";
             // 
             // cmbDeluxeRoom
             // 
@@ -872,7 +627,6 @@
             this.cmbDeluxeRoom.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbDeluxeRoom.FormattingEnabled = true;
             this.cmbDeluxeRoom.Items.AddRange(new object[] {
-            "",
             "",
             "1",
             "2",
@@ -884,7 +638,7 @@
             "8",
             "9",
             "10"});
-            this.cmbDeluxeRoom.Location = new System.Drawing.Point(200, 138);
+            this.cmbDeluxeRoom.Location = new System.Drawing.Point(200, 74);
             this.cmbDeluxeRoom.Name = "cmbDeluxeRoom";
             this.cmbDeluxeRoom.Size = new System.Drawing.Size(195, 31);
             this.cmbDeluxeRoom.TabIndex = 21;
@@ -894,7 +648,7 @@
             this.lblRoomType.AutoSize = true;
             this.lblRoomType.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblRoomType.Location = new System.Drawing.Point(18, 141);
+            this.lblRoomType.Location = new System.Drawing.Point(18, 79);
             this.lblRoomType.Name = "lblRoomType";
             this.lblRoomType.Size = new System.Drawing.Size(141, 23);
             this.lblRoomType.TabIndex = 20;
@@ -905,7 +659,7 @@
             this.lblRoom.AutoSize = true;
             this.lblRoom.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblRoom.Location = new System.Drawing.Point(458, 138);
+            this.lblRoom.Location = new System.Drawing.Point(23, 178);
             this.lblRoom.Name = "lblRoom";
             this.lblRoom.Size = new System.Drawing.Size(119, 23);
             this.lblRoom.TabIndex = 23;
@@ -927,7 +681,7 @@
             "8",
             "9",
             "10"});
-            this.cmbSuiteRoom.Location = new System.Drawing.Point(625, 138);
+            this.cmbSuiteRoom.Location = new System.Drawing.Point(200, 176);
             this.cmbSuiteRoom.Name = "cmbSuiteRoom";
             this.cmbSuiteRoom.Size = new System.Drawing.Size(195, 31);
             this.cmbSuiteRoom.TabIndex = 22;
@@ -962,6 +716,7 @@
             this.btnClear.TabIndex = 58;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // groupBox3
             // 
@@ -1105,6 +860,7 @@
             this.btnUpdate.TabIndex = 56;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -1117,6 +873,7 @@
             this.btnDelete.TabIndex = 55;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSubmit
             // 
@@ -1129,6 +886,7 @@
             this.btnSubmit.TabIndex = 54;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // txtboxAddress
             // 
@@ -1144,7 +902,7 @@
             this.radioFemale.AutoSize = true;
             this.radioFemale.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioFemale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.radioFemale.Location = new System.Drawing.Point(369, 311);
+            this.radioFemale.Location = new System.Drawing.Point(369, 321);
             this.radioFemale.Name = "radioFemale";
             this.radioFemale.Size = new System.Drawing.Size(104, 27);
             this.radioFemale.TabIndex = 52;
@@ -1157,7 +915,7 @@
             this.radioMale.AutoSize = true;
             this.radioMale.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.radioMale.Location = new System.Drawing.Point(278, 311);
+            this.radioMale.Location = new System.Drawing.Point(283, 321);
             this.radioMale.Name = "radioMale";
             this.radioMale.Size = new System.Drawing.Size(80, 27);
             this.radioMale.TabIndex = 51;
@@ -1194,7 +952,7 @@
             this.lblGender.AutoSize = true;
             this.lblGender.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lblGender.Location = new System.Drawing.Point(84, 309);
+            this.lblGender.Location = new System.Drawing.Point(84, 321);
             this.lblGender.Name = "lblGender";
             this.lblGender.Size = new System.Drawing.Size(84, 23);
             this.lblGender.TabIndex = 47;
@@ -1244,14 +1002,256 @@
             this.lblLastName.TabIndex = 43;
             this.lblLastName.Text = "Last Name";
             // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnSearch.Location = new System.Drawing.Point(1397, 50);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(115, 56);
+            this.btnSearch.TabIndex = 26;
+            this.btnSearch.Text = "Search ID";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // txtboxContactID
+            // 
+            this.txtboxContactID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxContactID.Location = new System.Drawing.Point(1061, 64);
+            this.txtboxContactID.Name = "txtboxContactID";
+            this.txtboxContactID.Size = new System.Drawing.Size(320, 32);
+            this.txtboxContactID.TabIndex = 9;
+            this.txtboxContactID.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtboxContactID_KeyDown_1);
+            // 
+            // btnViewAll
+            // 
+            this.btnViewAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnViewAll.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnViewAll.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewAll.Location = new System.Drawing.Point(1061, 692);
+            this.btnViewAll.Name = "btnViewAll";
+            this.btnViewAll.Size = new System.Drawing.Size(451, 56);
+            this.btnViewAll.TabIndex = 29;
+            this.btnViewAll.Text = "View All";
+            this.btnViewAll.UseVisualStyleBackColor = false;
+            this.btnViewAll.Click += new System.EventHandler(this.btnViewAll_Click);
+            // 
+            // dgvAllCustomers
+            // 
+            this.dgvAllCustomers.AllowUserToAddRows = false;
+            this.dgvAllCustomers.AllowUserToDeleteRows = false;
+            this.dgvAllCustomers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvAllCustomers.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
+            this.dgvAllCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllCustomers.Location = new System.Drawing.Point(1061, 121);
+            this.dgvAllCustomers.MultiSelect = false;
+            this.dgvAllCustomers.Name = "dgvAllCustomers";
+            this.dgvAllCustomers.ReadOnly = true;
+            this.dgvAllCustomers.RowTemplate.Height = 24;
+            this.dgvAllCustomers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvAllCustomers.Size = new System.Drawing.Size(451, 550);
+            this.dgvAllCustomers.TabIndex = 1;
+            this.dgvAllCustomers.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgvAllCustomers_MouseClick_1);
+            // 
+            // pnlHome
+            // 
+            this.pnlHome.BackColor = System.Drawing.Color.LightGray;
+            this.pnlHome.Controls.Add(this.label6);
+            this.pnlHome.Controls.Add(this.label4);
+            this.pnlHome.Controls.Add(this.label5);
+            this.pnlHome.Controls.Add(this.label3);
+            this.pnlHome.Controls.Add(this.label2);
+            this.pnlHome.Controls.Add(this.label7);
+            this.pnlHome.Controls.Add(this.pictureBox1);
+            this.pnlHome.Controls.Add(this.pictureBox2);
+            this.pnlHome.Controls.Add(this.pictureBox5);
+            this.pnlHome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pnlHome.Location = new System.Drawing.Point(291, 170);
+            this.pnlHome.Name = "pnlHome";
+            this.pnlHome.Size = new System.Drawing.Size(1584, 784);
+            this.pnlHome.TabIndex = 35;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label6.Location = new System.Drawing.Point(1157, 436);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(415, 253);
+            this.label6.TabIndex = 10;
+            this.label6.Text = resources.GetString("label6.Text");
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label4.Location = new System.Drawing.Point(613, 436);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(415, 253);
+            this.label4.TabIndex = 9;
+            this.label4.Text = resources.GetString("label4.Text");
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(75, 434);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(415, 253);
+            this.label5.TabIndex = 8;
+            this.label5.Text = resources.GetString("label5.Text");
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(728, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 29);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Deluxe Room";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(1234, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(194, 29);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Standard Room";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(202, 30);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(149, 29);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Suite Room";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1149, 93);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(432, 304);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(79, 93);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(424, 300);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(617, 93);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(427, 304);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pnlHeader
+            // 
+            this.pnlHeader.BackColor = System.Drawing.Color.Black;
+            this.pnlHeader.Controls.Add(this.lblHotelName);
+            this.pnlHeader.Controls.Add(this.button2);
+            this.pnlHeader.Controls.Add(this.btnLogout);
+            this.pnlHeader.Controls.Add(this.btnProfile);
+            this.pnlHeader.Controls.Add(this.lblSystemName);
+            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader.Location = new System.Drawing.Point(291, 0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(1584, 170);
+            this.pnlHeader.TabIndex = 34;
+            // 
+            // lblHotelName
+            // 
+            this.lblHotelName.AutoSize = true;
+            this.lblHotelName.Font = new System.Drawing.Font("Monotype Corsiva", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHotelName.ForeColor = System.Drawing.Color.White;
+            this.lblHotelName.Location = new System.Drawing.Point(28, 14);
+            this.lblHotelName.Name = "lblHotelName";
+            this.lblHotelName.Size = new System.Drawing.Size(553, 97);
+            this.lblHotelName.TabIndex = 0;
+            this.lblHotelName.Text = "Ella Sault Resort";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(1253, 14);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(96, 38);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Home";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnLogout.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
+            this.btnLogout.Location = new System.Drawing.Point(1482, 12);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(90, 38);
+            this.btnLogout.TabIndex = 3;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click_1);
+            // 
+            // btnProfile
+            // 
+            this.btnProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnProfile.Font = new System.Drawing.Font("Palatino Linotype", 10.2F);
+            this.btnProfile.Location = new System.Drawing.Point(1369, 13);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.Size = new System.Drawing.Size(96, 38);
+            this.btnProfile.TabIndex = 2;
+            this.btnProfile.Text = "Profile";
+            this.btnProfile.UseVisualStyleBackColor = false;
+            // 
+            // lblSystemName
+            // 
+            this.lblSystemName.AutoSize = true;
+            this.lblSystemName.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemName.ForeColor = System.Drawing.Color.White;
+            this.lblSystemName.Location = new System.Drawing.Point(532, 105);
+            this.lblSystemName.Name = "lblSystemName";
+            this.lblSystemName.Size = new System.Drawing.Size(439, 55);
+            this.lblSystemName.TabIndex = 1;
+            this.lblSystemName.Text = "Room Reservation";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1875, 954);
-            this.Controls.Add(this.pnlForm);
-            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlAvailbility);
+            this.Controls.Add(this.pnlForm1);
+            this.Controls.Add(this.pnlHome);
             this.Controls.Add(this.pnlHeader);
             this.Controls.Add(this.pnlNavigator);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1269,8 +1269,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvAvailability)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.pnlForm.ResumeLayout(false);
-            this.pnlForm.PerformLayout();
+            this.pnlForm1.ResumeLayout(false);
+            this.pnlForm1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCustomers)).EndInit();
             this.pnlHome.ResumeLayout(false);
             this.pnlHome.PerformLayout();
@@ -1279,10 +1283,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1299,7 +1299,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.ComboBox cmbRoomTypess;
+        private System.Windows.Forms.ComboBox cmbRoomTypes;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox cmbRoomNo;
         private System.Windows.Forms.DateTimePicker CheckOut;
@@ -1311,7 +1311,7 @@
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Button btnDetails;
         private System.Windows.Forms.DataGridView dgvAvailability;
-        private System.Windows.Forms.Panel pnlForm;
+        private System.Windows.Forms.Panel pnlForm1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.TextBox txtboxContactID;
         private System.Windows.Forms.Button btnViewAll;

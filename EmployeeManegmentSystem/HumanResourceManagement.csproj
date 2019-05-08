@@ -86,12 +86,6 @@
     <Compile Include="EventManagement.Designer.cs">
       <DependentUpon>EventManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormFinance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,9 +142,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EventManagement.resx">
       <DependentUpon>EventManagement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFinance.resx">
       <DependentUpon>FormFinance.cs</DependentUpon>
@@ -237,6 +228,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-take-away-food-filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RoomRservation\RoomRservation.csproj">
+      <Project>{C85351F8-DA61-4231-ACA9-A7D2C852D4B5}</Project>
+      <Name>RoomRservation1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

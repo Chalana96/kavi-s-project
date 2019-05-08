@@ -311,11 +311,11 @@
             // lblday
             // 
             this.lblday.AutoSize = true;
-            this.lblday.Font = new System.Drawing.Font("Adobe Fangsong Std R", 10.2F);
+            this.lblday.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.lblday.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.lblday.Location = new System.Drawing.Point(1290, 85);
             this.lblday.Name = "lblday";
-            this.lblday.Size = new System.Drawing.Size(88, 21);
+            this.lblday.Size = new System.Drawing.Size(84, 20);
             this.lblday.TabIndex = 7;
             this.lblday.Text = "Satuarday";
             // 
@@ -335,11 +335,11 @@
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.BackColor = System.Drawing.Color.Transparent;
-            this.lblDate.Font = new System.Drawing.Font("Adobe Fangsong Std R", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.lblDate.Location = new System.Drawing.Point(1116, 85);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(168, 21);
+            this.lblDate.Size = new System.Drawing.Size(168, 20);
             this.lblDate.TabIndex = 6;
             this.lblDate.Text = "FEBRUARY 09 2019 ";
             // 
@@ -1625,7 +1625,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.03249F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.96751F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 225F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 228F));
             this.tableLayoutPanel1.Controls.Add(this.label6, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label4, 1, 0);
@@ -1652,7 +1652,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(882, 2);
+            this.label6.Location = new System.Drawing.Point(879, 2);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 25);
             this.label6.TabIndex = 3;
@@ -1672,7 +1672,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(242, 2);
+            this.label4.Location = new System.Drawing.Point(241, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(169, 25);
             this.label4.TabIndex = 1;
@@ -1683,7 +1683,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(720, 2);
+            this.label5.Location = new System.Drawing.Point(717, 2);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label5.Size = new System.Drawing.Size(30, 25);
@@ -1756,8 +1756,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1484, 714);
-            this.Controls.Add(this.pnlEmpReg);
             this.Controls.Add(this.pnlSalary);
+            this.Controls.Add(this.pnlEmpReg);
             this.Controls.Add(this.pnlAllEmp);
             this.Controls.Add(this.pnlFront);
             this.Controls.Add(this.pnlDept);

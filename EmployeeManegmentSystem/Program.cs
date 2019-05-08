@@ -16,7 +16,7 @@ namespace EmployeeManegmentSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RoomRservation.frmLogin());
+            Application.Run(new RoomRservation.frmMain());
         }
     }
 }
